@@ -120,46 +120,7 @@ a {
     font-weight: 400;
 }
 
-/* Mascot - CSS Sprite / Crop strategy */
-/* Adjusted for better cropping of the top-left character */
-.mascot-hero {
-    width: 250px;
-    height: 250px;
-    background-image: url('../images/mascot.png');
-    /* Fix: Adjusted to center the top-left character (Front View) in the circle */
-    background-size: 350%;
-    /* Zoom in to fit the character face/upper body */
-    background-position: 13% 10%;
-    /* Shift to align top-left char to center */
-
-    border-radius: 0;
-    border: none;
-    background-color: transparent;
-}
-
-.hero-image-wrapper {
-    margin-bottom: 20px;
-    width: 180px;
-    /* Slightly smaller wrapper to frame the face better */
-    height: 180px;
-    border-radius: 50%;
-    background-color: var(--white);
-    border: 6px solid #FFD54F;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Adjust mascot inside wrapper */
-.hero-image-wrapper .mascot-hero {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    /* Zoom in further for the circular portrait */
-    background-size: 600%;
-    background-position: 8% 10%;
-}
+/* Mascot styles removed */
 
 
 /* Intro Section */
@@ -280,20 +241,7 @@ a {
     margin-bottom: 40px;
 }
 
-.mascot-cta {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto 30px;
-    background-image: url('../images/mascot.png');
-    /* Adjusted to avoid showing neighboring sprites */
-    background-position: 50% 95%;
-    /* Bottom center character */
-    background-size: 500%;
-    /* Increased zoom to isolate */
-    border-radius: 50%;
-    border: 4px solid var(--white);
-    background-color: var(--white);
-}
+
 
 /* Footer */
 .footer {
@@ -325,12 +273,7 @@ a {
         margin-bottom: 20px;
     }
 
-    /* Optimize Hero Mascot size for mobile to keep CTA above fold */
-    .hero-image-wrapper {
-        width: 160px;
-        height: 160px;
-        margin-bottom: 15px;
-    }
+
 
     .category-title {
         font-size: 1.3rem;
