@@ -281,8 +281,8 @@ a {
     }
 
     .cta-title {
-        font-size: 1.4rem;
-        /* Reduced to prevent awkward wrapping */
+        font-size: 1.2rem;
+        /* Reduced further to ensure fit */
         line-height: 1.6;
     }
 
