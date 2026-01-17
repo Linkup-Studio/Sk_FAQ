@@ -126,10 +126,11 @@ a {
     width: 250px;
     height: 250px;
     background-image: url('../images/mascot.png');
-    /* Increased size to zoom in on the single character */
-    background-size: 800px auto;
-    /* Shifted to focus on the top-left character's face/upper body */
-    background-position: -25px -40px;
+    /* Fix: Adjusted to center the top-left character (Front View) in the circle */
+    background-size: 350%;
+    /* Zoom in to fit the character face/upper body */
+    background-position: 13% 10%;
+    /* Shift to align top-left char to center */
 
     border-radius: 0;
     border: none;
