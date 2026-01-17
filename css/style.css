@@ -305,15 +305,46 @@ a {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .section {
+        padding: 40px 0;
+        /* Reduce vertical spacing on mobile */
+    }
+
+    .hero {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
     .hero-title {
         font-size: 1.6rem;
     }
 
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    /* Optimize Hero Mascot size for mobile to keep CTA above fold */
+    .hero-image-wrapper {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 15px;
+    }
+
     .category-title {
         font-size: 1.3rem;
+        margin-top: 10px;
     }
 
     .qa-item {
         padding: 20px;
+    }
+
+    .btn-lg {
+        width: 100%;
+        /* Make button full width on mobile for easier tapping */
+        max-width: 350px;
+        font-size: 1.1rem;
+        padding: 12px 20px;
     }
 }
